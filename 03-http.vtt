@@ -1,0 +1,71 @@
+WEBVTT
+
+1
+00:00:03.150 --> 00:00:07.039
+Wir schicken eine Nachricht an
+Fallfinder und schauen auf die Antwort.
+
+2
+00:00:07.289 --> 00:00:09.830
+Wer entfernt die zusätzlichen Leerzeichen:
+
+3
+00:00:09.850 --> 00:00:12.966
+die Anfrage oder unser
+Backend? Legt euch fest.
+
+4
+00:00:15.850 --> 00:00:20.634
+POST /normalize bekommt ein
+JSON-Objekt mit dem Feld text.
+
+5
+00:00:20.884 --> 00:00:25.576
+Die Adresse zeigt auf den lokalen Server.
+Die Leerzeichen reisen zunächst mit.
+
+6
+00:00:26.617 --> 00:00:30.634
+Unser Backend bewahrt das Original
+und erstellt eine bereinigte Kopie.
+
+7
+00:00:30.884 --> 00:00:35.749
+Es entfernt äußere Leerzeichen und fasst
+mehrere innere Leerzeichen zusammen.
+
+8
+00:00:36.783 --> 00:00:40.551
+Die Antwort enthält original,
+normalized und changed.
+
+9
+00:00:40.801 --> 00:00:44.472
+Das Wort not bleibt erhalten,
+weil es die Bedeutung verändert.
+
+10
+00:00:45.517 --> 00:00:49.727
+Sendet den Text einmal mit und
+einmal ohne zusätzliche Leerzeichen.
+
+11
+00:00:49.977 --> 00:00:52.993
+Vergleicht das Änderungsfeld
+in beiden Antworten.
+
+12
+00:00:53.013 --> 00:00:56.238
+Die Zeichnung ersetzt
+euren echten Aufruf nicht.
+
+13
+00:00:57.283 --> 00:00:59.805
+Die Stimme in diesem
+Video ist synthetisch,
+
+14
+00:00:59.825 --> 00:01:02.663
+erzeugt mit Piper,
+Stimme deutsch Thorsten high.
+

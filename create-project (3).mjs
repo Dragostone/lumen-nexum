@@ -1,0 +1,10 @@
+import { mkdir, writeFile } from 'node:fs/promises';
+import { resolve } from 'node:path';
+const name = process.argv[2];
+if (!name || !/^[a-z][a-z0-9-]{0,40}$/.test(name)) throw new Error('Aufruf: node create-project.mjs fallfinder');
+const target = resolve(name);
+await mkdir(target);
+await mkdir(resolve(target, 'src'));
+await writeFile(resolve(target, 'package.json'), "{\n  \"name\": \"fallfinder\",\n  \"private\": true,\n  \"type\": \"module\",\n  \"scripts\": {\n    \"start\": \"node src/server.ts\"\n  },\n  \"engines\": {\n    \"node\": \">=24.12.0\"\n  },\n  \"dependencies\": {\n    \"hono\": \"4.13.11\",\n    \"@hono/node-server\": \"2.1.3\"\n  }\n}");
+await writeFile(resolve(target, 'src/server.ts'), "import { Hono } from 'hono';\nimport { serve } from '@hono/node-server';\nconst app = new Hono();\napp.get('/health', c => c.json({ project: 'Fallfinder', ready: true }));\nserve({ fetch: app.fetch, hostname: '127.0.0.1', port: 3217, overrideGlobalObjects: false });\n");
+console.log('Neu erstellt: ' + target);

@@ -1,0 +1,78 @@
+1
+00:00:02,500 --> 00:00:04,467
+Diese erfundene Banknachricht sagt:
+
+2
+00:00:04,487 --> 00:00:06,837
+Ich habe zwanzig Euro nicht erhalten.
+
+3
+00:00:07,037 --> 00:00:09,598
+Im Original stehen
+zusätzliche Leerzeichen,
+
+4
+00:00:09,618 --> 00:00:11,728
+doch der Inhalt bleibt wichtig.
+
+5
+00:00:12,567 --> 00:00:15,789
+Dürfen wir beim Aufräumen
+auch das Wort not entfernen?
+
+6
+00:00:15,809 --> 00:00:18,220
+Haltet kurz an und entscheidet euch.
+
+7
+00:00:21,067 --> 00:00:24,854
+Nein: Ohne die Verneinung behauptet
+die Nachricht etwas anderes.
+
+8
+00:00:25,054 --> 00:00:27,545
+Unsere Regel entfernt äußere Leerzeichen
+
+9
+00:00:27,565 --> 00:00:30,263
+und fasst mehrere Leerzeichen zusammen.
+
+10
+00:00:30,463 --> 00:00:33,089
+not und die Zahl zwanzig bleiben erhalten;
+
+11
+00:00:33,109 --> 00:00:35,753
+daneben bewahren wir das Original auf.
+
+12
+00:00:36,600 --> 00:00:38,593
+Fügt in der Übung zwei Leerzeichen ein
+
+13
+00:00:38,613 --> 00:00:40,718
+und vergleicht beide Darstellungen.
+
+14
+00:00:40,918 --> 00:00:44,453
+Die Verneinung und die Zahl
+müssen in beiden Texten stehen.
+
+15
+00:00:44,653 --> 00:00:45,925
+So könnt ihr erklären,
+
+16
+00:00:45,945 --> 00:00:49,365
+was eure Bereinigung ändert
+und was sie schützen muss.
+
+17
+00:00:50,200 --> 00:00:52,978
+Die Stimme ist synthetisch,
+erzeugt mit Piper,
+
+18
+00:00:52,998 --> 00:00:54,641
+Stimme de_DE thorsten high.
+

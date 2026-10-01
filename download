@@ -1,0 +1,4 @@
+node_modules/
+learner/videos/*.mp4
+*.sqlite*
+.env*

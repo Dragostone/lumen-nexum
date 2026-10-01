@@ -1,0 +1,349 @@
+{
+  "kind": "saved-real-model-run",
+  "date": "2026-10-01",
+  "live": false,
+  "source": "isolated local Hono HTTP experiment, shared Fallfinder contract",
+  "sourceLogSha256": "27c79273e729b63d913d2104fbf4492c1d5ed2683aee75022ae0d7dfad1203bb",
+  "observations": [
+    {
+      "path": "/search",
+      "input": {
+        "text": "  My plastic vanished on the train.  ",
+        "topK": 3
+      },
+      "status": 200,
+      "elapsedMs": 3269,
+      "output": {
+        "query": {
+          "originalText": "  My plastic vanished on the train.  ",
+          "normalizedText": "My plastic vanished on the train."
+        },
+        "model": {
+          "id": "Xenova/bge-small-en-v1.5",
+          "revision": "ea104dacec62c0de699686887e3f920caeb4f3e3",
+          "dimensions": 384,
+          "language": "en",
+          "dtype": "q8",
+          "device": "cpu",
+          "pooling": "mean",
+          "vectorNormalization": "L2",
+          "queryPrefix": "Represent this sentence for searching relevant passages: "
+        },
+        "corpus": {
+          "kind": "synthetic",
+          "count": 12,
+          "license": "CC0-1.0",
+          "source": "12 author-created English teaching examples, 2026-10-01"
+        },
+        "elapsedMs": 3248,
+        "keyword": [
+          {
+            "id": "F05",
+            "originalText": "I lost my card on the train. Please help me block it.",
+            "label": "lost_card",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I lost my card on the train. Please help me block it.",
+            "score": 0.6666666666666666
+          },
+          {
+            "id": "F04",
+            "originalText": "Where can I track the delivery of my new bank card?",
+            "label": "card_delivery",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "Where can I track the delivery of my new bank card?",
+            "score": 0.3333333333333333
+          },
+          {
+            "id": "F08",
+            "originalText": "The shop returned my payment, but the money is not in my balance.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The shop returned my payment, but the money is not in my balance.",
+            "score": 0.3333333333333333
+          }
+        ],
+        "semantic": [
+          {
+            "id": "F05",
+            "originalText": "I lost my card on the train. Please help me block it.",
+            "label": "lost_card",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I lost my card on the train. Please help me block it.",
+            "score": 0.669877892077344
+          },
+          {
+            "id": "F06",
+            "originalText": "Someone stole my wallet and my payment card is missing.",
+            "label": "lost_card",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "Someone stole my wallet and my payment card is missing.",
+            "score": 0.5634297140379879
+          },
+          {
+            "id": "F11",
+            "originalText": "The cash machine kept my card and gave me no cash.",
+            "label": "atm_problem",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The cash machine kept my card and gave me no cash.",
+            "score": 0.5457922090415758
+          }
+        ]
+      }
+    },
+    {
+      "path": "/search",
+      "input": {
+        "text": "The shop sent my money back but my balance is unchanged.",
+        "topK": 3
+      },
+      "status": 200,
+      "elapsedMs": 17,
+      "output": {
+        "query": {
+          "originalText": "The shop sent my money back but my balance is unchanged.",
+          "normalizedText": "The shop sent my money back but my balance is unchanged."
+        },
+        "model": {
+          "id": "Xenova/bge-small-en-v1.5",
+          "revision": "ea104dacec62c0de699686887e3f920caeb4f3e3",
+          "dimensions": 384,
+          "language": "en",
+          "dtype": "q8",
+          "device": "cpu",
+          "pooling": "mean",
+          "vectorNormalization": "L2",
+          "queryPrefix": "Represent this sentence for searching relevant passages: "
+        },
+        "corpus": {
+          "kind": "synthetic",
+          "count": 12,
+          "license": "CC0-1.0",
+          "source": "12 author-created English teaching examples, 2026-10-01"
+        },
+        "elapsedMs": 8,
+        "keyword": [
+          {
+            "id": "F08",
+            "originalText": "The shop returned my payment, but the money is not in my balance.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The shop returned my payment, but the money is not in my balance.",
+            "score": 0.7
+          },
+          {
+            "id": "F02",
+            "originalText": "I paid once, but two payments appear in my account.",
+            "label": "duplicate_charge",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I paid once, but two payments appear in my account.",
+            "score": 0.2
+          },
+          {
+            "id": "F04",
+            "originalText": "Where can I track the delivery of my new bank card?",
+            "label": "card_delivery",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "Where can I track the delivery of my new bank card?",
+            "score": 0.2
+          }
+        ],
+        "semantic": [
+          {
+            "id": "F08",
+            "originalText": "The shop returned my payment, but the money is not in my balance.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The shop returned my payment, but the money is not in my balance.",
+            "score": 0.834296354844906
+          },
+          {
+            "id": "F07",
+            "originalText": "I did NOT receive the refund of 25 euros.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I did NOT receive the refund of 25 euros.",
+            "score": 0.6831869615468826
+          },
+          {
+            "id": "F02",
+            "originalText": "I paid once, but two payments appear in my account.",
+            "label": "duplicate_charge",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I paid once, but two payments appear in my account.",
+            "score": 0.6231169145213264
+          }
+        ]
+      }
+    },
+    {
+      "path": "/search",
+      "input": {
+        "text": "I received the refund of 25 euros.",
+        "topK": 3
+      },
+      "status": 200,
+      "elapsedMs": 11,
+      "output": {
+        "query": {
+          "originalText": "I received the refund of 25 euros.",
+          "normalizedText": "I received the refund of 25 euros."
+        },
+        "model": {
+          "id": "Xenova/bge-small-en-v1.5",
+          "revision": "ea104dacec62c0de699686887e3f920caeb4f3e3",
+          "dimensions": 384,
+          "language": "en",
+          "dtype": "q8",
+          "device": "cpu",
+          "pooling": "mean",
+          "vectorNormalization": "L2",
+          "queryPrefix": "Represent this sentence for searching relevant passages: "
+        },
+        "corpus": {
+          "kind": "synthetic",
+          "count": 12,
+          "license": "CC0-1.0",
+          "source": "12 author-created English teaching examples, 2026-10-01"
+        },
+        "elapsedMs": 7,
+        "keyword": [
+          {
+            "id": "F07",
+            "originalText": "I did NOT receive the refund of 25 euros.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I did NOT receive the refund of 25 euros.",
+            "score": 0.8571428571428571
+          },
+          {
+            "id": "F12",
+            "originalText": "The ATM debited 50 euros, but I received no banknotes.",
+            "label": "atm_problem",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The ATM debited 50 euros, but I received no banknotes.",
+            "score": 0.5714285714285714
+          },
+          {
+            "id": "F04",
+            "originalText": "Where can I track the delivery of my new bank card?",
+            "label": "card_delivery",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "Where can I track the delivery of my new bank card?",
+            "score": 0.42857142857142855
+          }
+        ],
+        "semantic": [
+          {
+            "id": "F07",
+            "originalText": "I did NOT receive the refund of 25 euros.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I did NOT receive the refund of 25 euros.",
+            "score": 0.9302392517570891
+          },
+          {
+            "id": "F08",
+            "originalText": "The shop returned my payment, but the money is not in my balance.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The shop returned my payment, but the money is not in my balance.",
+            "score": 0.6709764401872058
+          },
+          {
+            "id": "F12",
+            "originalText": "The ATM debited 50 euros, but I received no banknotes.",
+            "label": "atm_problem",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The ATM debited 50 euros, but I received no banknotes.",
+            "score": 0.6515896971579316
+          }
+        ]
+      }
+    },
+    {
+      "path": "/search",
+      "input": {
+        "text": "I did NOT receive the refund of 25 euros.",
+        "topK": 3
+      },
+      "status": 200,
+      "elapsedMs": 14,
+      "output": {
+        "query": {
+          "originalText": "I did NOT receive the refund of 25 euros.",
+          "normalizedText": "I did NOT receive the refund of 25 euros."
+        },
+        "model": {
+          "id": "Xenova/bge-small-en-v1.5",
+          "revision": "ea104dacec62c0de699686887e3f920caeb4f3e3",
+          "dimensions": 384,
+          "language": "en",
+          "dtype": "q8",
+          "device": "cpu",
+          "pooling": "mean",
+          "vectorNormalization": "L2",
+          "queryPrefix": "Represent this sentence for searching relevant passages: "
+        },
+        "corpus": {
+          "kind": "synthetic",
+          "count": 12,
+          "license": "CC0-1.0",
+          "source": "12 author-created English teaching examples, 2026-10-01"
+        },
+        "elapsedMs": 10,
+        "keyword": [
+          {
+            "id": "F07",
+            "originalText": "I did NOT receive the refund of 25 euros.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I did NOT receive the refund of 25 euros.",
+            "score": 1
+          },
+          {
+            "id": "F04",
+            "originalText": "Where can I track the delivery of my new bank card?",
+            "label": "card_delivery",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "Where can I track the delivery of my new bank card?",
+            "score": 0.3333333333333333
+          },
+          {
+            "id": "F12",
+            "originalText": "The ATM debited 50 euros, but I received no banknotes.",
+            "label": "atm_problem",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The ATM debited 50 euros, but I received no banknotes.",
+            "score": 0.3333333333333333
+          }
+        ],
+        "semantic": [
+          {
+            "id": "F07",
+            "originalText": "I did NOT receive the refund of 25 euros.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "I did NOT receive the refund of 25 euros.",
+            "score": 0.9670659040005214
+          },
+          {
+            "id": "F08",
+            "originalText": "The shop returned my payment, but the money is not in my balance.",
+            "label": "missing_refund",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The shop returned my payment, but the money is not in my balance.",
+            "score": 0.6979387998127349
+          },
+          {
+            "id": "F12",
+            "originalText": "The ATM debited 50 euros, but I received no banknotes.",
+            "label": "atm_problem",
+            "source": "author-created synthetic example, 2026-10-01",
+            "normalizedText": "The ATM debited 50 euros, but I received no banknotes.",
+            "score": 0.6900728075169829
+          }
+        ]
+      }
+    }
+  ]
+}

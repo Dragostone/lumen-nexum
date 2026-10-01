@@ -1,0 +1,75 @@
+1
+00:00:02,500 --> 00:00:04,971
+Willkommen bei Fallfinder:
+Wir wollen zu einer
+
+2
+00:00:04,991 --> 00:00:07,408
+Nachricht ähnliche Beispielfälle finden.
+
+3
+00:00:07,608 --> 00:00:10,864
+Zuerst braucht das neue
+Projekt einen eigenen Ordner.
+
+4
+00:00:11,700 --> 00:00:15,542
+Erstellt cd den Ordner,
+oder wechselt der Befehl hinein?
+
+5
+00:00:15,562 --> 00:00:18,295
+Haltet kurz an und entscheidet euch.
+
+6
+00:00:21,133 --> 00:00:23,796
+Der erste Befehl startet
+unser vorbereitetes
+
+7
+00:00:23,816 --> 00:00:26,261
+Skript und legt das neue Projekt an.
+
+8
+00:00:26,461 --> 00:00:30,213
+Der zweite Befehl wechselt hinein;
+der dritte prüft den Code.
+
+9
+00:00:30,413 --> 00:00:34,040
+Das Terminal führt Befehle aus;
+der Editor zeigt die Dateien.
+
+10
+00:00:34,900 --> 00:00:37,357
+Öffnet zuerst den bereitgestellten Starter
+
+11
+00:00:37,377 --> 00:00:39,927
+und führt die drei Befehle einzeln aus.
+
+12
+00:00:40,127 --> 00:00:43,017
+Findet im neuen Projekt die Datei
+
+13
+00:00:43,037 --> 00:00:46,727
+src/server.ts und öffnet sie im Editor.
+
+14
+00:00:46,927 --> 00:00:48,826
+Der Server läuft jetzt noch nicht.
+
+15
+00:00:49,026 --> 00:00:51,027
+Dieser Befehl prüft nur den Code.
+
+16
+00:00:51,867 --> 00:00:54,645
+Die Stimme ist synthetisch,
+erzeugt mit Piper,
+
+17
+00:00:54,665 --> 00:00:56,308
+Stimme de_DE thorsten high.
+

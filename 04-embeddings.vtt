@@ -1,0 +1,75 @@
+WEBVTT
+
+1
+00:00:03.150 --> 00:00:07.531
+Eine Karte ist nicht angekommen. Wir
+suchen Fälle zu einem ähnlichen Anliegen.
+
+2
+00:00:07.781 --> 00:00:11.051
+Müssen zwei Nachrichten
+dieselben Wörter enthalten,
+
+3
+00:00:11.071 --> 00:00:13.902
+damit sie zusammenpassen? Überlegt kurz.
+
+4
+00:00:16.817 --> 00:00:20.170
+Ein Embedding-Modell bildet
+Texte auf Zahlenvektoren ab.
+
+5
+00:00:20.420 --> 00:00:23.511
+Unser vorgesehenes Modell
+verarbeitet englische Texte.
+
+6
+00:00:23.531 --> 00:00:26.432
+Deshalb sind die
+Beispielnachrichten englisch.
+
+7
+00:00:27.483 --> 00:00:31.726
+Wir vergleichen den Vektor der Anfrage
+mit den Vektoren unserer Beispiele.
+
+8
+00:00:31.976 --> 00:00:36.469
+So können auch unterschiedlich formulierte
+Nachrichten als ähnlich erscheinen.
+
+9
+00:00:37.517 --> 00:00:42.233
+Die Textnormalisierung bearbeitet
+Leerzeichen und bewahrt das Original.
+
+10
+00:00:42.483 --> 00:00:47.305
+Vektornormalisierung skaliert Zahlen.
+Sie bereinigt keinen Nachrichtentext.
+
+11
+00:00:48.350 --> 00:00:52.290
+Vergleicht eine angekommene Karte
+mit einer nicht angekommenen Karte.
+
+12
+00:00:52.540 --> 00:00:56.069
+Ein hoher Ähnlichkeitswert
+beweist keine richtige Antwort.
+
+13
+00:00:56.089 --> 00:00:58.359
+Lest die gefundenen Fälle selbst.
+
+14
+00:00:59.417 --> 00:01:01.939
+Die Stimme in diesem
+Video ist synthetisch,
+
+15
+00:01:01.959 --> 00:01:04.797
+erzeugt mit Piper,
+Stimme deutsch Thorsten high.
+
